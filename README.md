@@ -52,7 +52,7 @@ CREATE DATABASE inventory;
 ```bash
 psql -U your_user -d inventory -f scripts/create_items_table.sql
 ```
-### Note
+### Note :
 You don’t need to run the script manually — Hibernate will automatically create the table at runtime based on the entity definitions
 ---
 
@@ -65,8 +65,8 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/inventory
 spring.datasource.username=your_user
 spring.datasource.password=your_password
 
-spring.security.user.name=admin
-spring.security.user.password=admin123
+app.security.username=admin
+app.security.password=admin123
 ```
 
 ---
