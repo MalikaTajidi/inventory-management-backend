@@ -143,7 +143,7 @@ Example request body for `POST /admin/items`:
 **items** table:
 
  SQL Script: `scripts/create_items_table.sql`
- Full Docs: `docs/submission.pdf`
+ Full Docs: `docs/API-Documentation-MalikaTAJIDI.pdf`
 
 ---
 
